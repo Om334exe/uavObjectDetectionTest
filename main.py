@@ -1,4 +1,5 @@
 #install ultralytics #pip install ultralytics
+#if python3.10 is installed then pip3.10 install ultralytics
 from ultralytics import YOLO
 
 # Load a model
