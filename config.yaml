@@ -1,0 +1,12 @@
+path: /home/om/Desktop/GarbageObjectDetection /GarbageDetectionDataset
+train: train/images
+val: test/images
+
+#classes
+names:
+  0: glass
+  1: plastic-bottle
+  2: retort-pouch
+  3: take-away-containers
+  4: takeaway-cup
+  5: tin-and-aluminum-cans

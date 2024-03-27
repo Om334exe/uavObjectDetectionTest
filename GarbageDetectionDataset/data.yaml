@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['glass', 'plastic-bottle', 'retort-pouch', 'take-away-containers', 'takeaway-cup', 'tin-and-aluminum-cans']
+
+roboflow:
+  workspace: national-cheng-kung-university-wjot1
+  project: aerial-beach-waste-dataset-xpzsi
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/national-cheng-kung-university-wjot1/aerial-beach-waste-dataset-xpzsi/dataset/1
