@@ -10,3 +10,7 @@ model = YOLO("yolov8n.yaml")  # build a new model from scratch
 results = model.train(data="config.yaml", epochs=50)  # train the model
 #After training for testing the object detection we can pass any video or image
 #results = model(source = "test.mp4" , show = True , conf = 0.4 , save = True)
+
+#Saving the Model 
+model.save("path/to/save/model.pth")
+
