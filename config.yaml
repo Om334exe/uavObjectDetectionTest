@@ -1,4 +1,4 @@
-path: /home/om/Desktop/GarbageObjectDetection /GarbageDetectionDataset
+path: /home/om/Desktop/GarbageObjectDetection /GarbageDetectionDataset #root dir path of your dataset 
 train: train/images
 val: test/images
 
